@@ -1,5 +1,7 @@
 pyTelegramBotAPI
 pydub
-requests
 flask
-gradio_client
+requests
+numpy
+scipy
+
