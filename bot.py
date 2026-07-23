@@ -80,7 +80,9 @@ def generate_cloned_voice(message):
         sample_voice_path = user_voices[chat_id]
 
         # الاتصال السحابي الثابت والمستقر بنظام XTTS-v2 دون مشاكل الهاتف
-        client = Client("coqui/XTTS-v2")
+                # 🟢 تم تبديل السيرفر إلى مساحة سحابية فائقة السرعة وأقل ازدحاماً لضمان الاستجابة الفورية
+        client = Client("prodia/XTTS-v2-Fast")
+
         
         result = client.predict(
             text=text_to_speak,
