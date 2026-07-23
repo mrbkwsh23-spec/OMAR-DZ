@@ -81,7 +81,8 @@ def generate_cloned_voice(message):
 
         # الاتصال السحابي الثابت والمستقر بنظام XTTS-v2 دون مشاكل الهاتف
                 # 🟢 تم تبديل السيرفر إلى مساحة سحابية فائقة السرعة وأقل ازدحاماً لضمان الاستجابة الفورية
-        client = Client("prodia/XTTS-v2-Fast")
+        client = Client("cloner-audio/XTTS-v2-Permanent")
+
 
         
         result = client.predict(
